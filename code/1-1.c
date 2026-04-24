@@ -10,4 +10,4 @@ int main() {
   printf("%s\n", s3);
 
   return 0;
-)
+}
