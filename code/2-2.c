@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-VOID foo() {
+void foo() {
     char *str1 = "hello";
     printf("%p\n", (void*)str1)
 }
