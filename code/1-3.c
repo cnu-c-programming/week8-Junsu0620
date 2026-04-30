@@ -7,7 +7,7 @@ char *my_strcat(char *dst, const char *scr) {
     }
 
     while (*src != '\0') {
-        *dst = *src
+        *dst = *src;
         dst++;
         src++;
     }
