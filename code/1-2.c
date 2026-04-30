@@ -3,7 +3,7 @@
 
 int main() {
   char s1[10] = "hi";
-  char s2[] = "hi"
+  char s2[] = "hi";
   char s3[] = {'h', 'i', '\0'};
 
   printf("%zu %zu\n", sizedf(s1), strlen(s1));
