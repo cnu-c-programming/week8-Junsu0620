@@ -1,22 +1,14 @@
 #include <stdio.h>
 
 int my_strcmp(const char *a, const char *b) {
-    while {
-        while (*a == ' ') {
-            a++;
-        }
-        while (*b == ' ') {
-            b++;
-        }
+    while (*a && *b) {
         if (*a != *b) {
             return *a - *b;
-        }
-        if (*a == '\0') {
-            return 0;
         }
         a++;
         b++;
     }
+     return *a - *b;   
 }
 
 int main() {
