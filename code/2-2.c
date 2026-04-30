@@ -2,12 +2,12 @@
 
 void foo() {
     char *str1 = "hello";
-    printf("%p\n", (void*)str1)
+    printf("%p\n", (void*)str1);
 }
 
 void bar() {
     char *str2 = "hello";
-    printf("%p\n", (void*)str2)
+    printf("%p\n", (void*)str2);
 }
 
 int main() {
