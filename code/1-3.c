@@ -6,10 +6,10 @@ char *my_strcat(char *dst, const char *scr) {
         dst++;
     }
 
-    while (*src != '\0') {
+    while (*scr != '\0') {
         *dst = *src;
         dst++;
-        src++;
+        scr++;
     }
     *dst = '\0';
 }
