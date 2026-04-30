@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-char *my_strcat(char *dst, const char *scr) {
+char *my_strcat(char *dst, const char *src) {
 
     while (*dst != '\0') {
         dst++;
     }
 
-    while (*scr != '\0') {
-        *dst = *scr;
+    while (*src != '\0') {
+        *dst = *src;
         dst++;
-        scr++;
+        src++;
     }
     *dst = '\0';
 }
